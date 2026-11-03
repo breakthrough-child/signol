@@ -5,7 +5,7 @@
 **Project name:** signol
 **Tagline:** Turn customer interviews into an evidence-backed verdict, and make founders face the evidence against them before they decide.
 **Challenge:** HETIC AI Agents for Founders Challenge 2026
-**Links:** Live demo `https://YOUR-DEPLOYMENT.vercel.app` · Code `https://github.com/YOUR-ORG/signol` · Video `YOUR-VIDEO-URL`
+**Links:** Live demo `https://YOUR-DEPLOYMENT.vercel.app` · Code `https://github.com/breakthrough-child/signol` · Video `YOUR-VIDEO-URL`
 
 ## Inspiration
 
