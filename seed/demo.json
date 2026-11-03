@@ -1,0 +1,1131 @@
+{
+  "project": {
+    "name": "Lagos restaurants: inventory app (demo)",
+    "hypothesis": "Small restaurant owners in Lagos will pay monthly for an app that automates inventory tracking.",
+    "target_customer": "Owners of small restaurants, bukas and canteens in Lagos, Nigeria (10-60 seats, 5-15 staff)",
+    "predicted_supporters": 5,
+    "predicted_confidence": 80
+  },
+  "interviews": [
+    {
+      "label": "Interview 1: Bola, buka owner in Surulere",
+      "text": "Interviewer: Thanks for making time, Aunty Bola. I know the lunch rush just ended. Can you tell me a bit about the restaurant?\nBola: No problem at all, my dear. It is called Mama Bola's Kitchen. I started it nine years ago with two pots and one gas cooker. Now I have six staff, and we serve about sixty plates on a good day. Amala, ewedu, rice and stew, pepper soup on weekends. Mostly office people from the area and some students.\nInterviewer: That's impressive. So, I'm working on a mobile app for restaurant owners. Before I say anything about it, can you walk me through how you keep track of your stock today? Things like rice, tomatoes, palm oil, meat.\nBola: Ah, okay. Every night when we close, I write down what came in and what is left in a big notebook. My younger sister Kemi sits with me and we check it against the receipts, and it takes about an hour. Then in the morning the cook tells me what is finished and I buy again at the market.\nInterviewer: And does that notebook always match what is on the shelf?\nBola: Not always. Last month we ran out of rice on a Friday afternoon, and Friday is my best day. The notebook said we had two bags. When we checked, one bag had been used for a naming ceremony order that nobody wrote down. So I had to send the boy to buy rice at the retail price, and some customers had already left.\nInterviewer: How much did that cost you, roughly?\nBola: I did not calculate it. Maybe the plates we lost, and the extra money for the rice. It is not a thing I can say exactly.\nInterviewer: Okay. Wouldn't it be great if an app counted your stock for you, so you never ran out on a Friday again?\nBola: Oh, that would be fantastic. I would definitely pay for something like that. That is a brilliant idea, my dear.\nInterviewer: How much would you pay, do you think?\nBola: Haha, you are asking me price now. Let me see. If it is not too costly, I can pay two or three thousand naira a month. But I would have to see it first. These things sometimes look nice on the phone and then nobody uses them.\nInterviewer: Have you used any app for the business before?\nBola: Only the bank app, and WhatsApp. I get my orders on WhatsApp. We have never used a special app for the kitchen or the stock. My nephew tried to set up something for me once, but I did not have time for it.\nInterviewer: What happened with that?\nBola: Nothing. He put it on my phone, I opened it two times and I forgot. The shop was too busy that month.\nInterviewer: Who would use the app in your place? You, or the staff?\nBola: Me, mostly. The cook, Mama Ngozi, does not like phones. She is sixty-two. The staff can learn if you teach them slowly. But I would be the one entering things.\nInterviewer: And would you enter the deliveries every time they come in?\nBola: Yes, I would enter everything, every single day. Because it would save me the hour I spend with Kemi at night. Actually, I want that hour back, because Kemi has her own work.\nInterviewer: When you say you want that hour back, what would you do with it?\nBola: Rest, my dear. Or prepare for the next day. I wake up at four in the morning.\nInterviewer: Let me ask about money. How do you pay your suppliers?\nBola: Mostly cash, some transfer. The rice woman and the meat seller, I pay them on Saturdays for the whole week. The others I pay on the spot.\nInterviewer: What do you spend on your phone every month, data and so on?\nBola: About three thousand naira on data. I use it for orders and for my daughter in Canada. So if the app is another three thousand, hmm, that is double. I must be sure.\nInterviewer: That's helpful to know. Do other owners you know have the same problem with stock?\nBola: I think most buka owners are suffering the same way, because everybody uses notebook. Some of them are even worse than me. They keep it in their head.\nInterviewer: So let me understand, you would use this and you would pay for it?\nBola: Yes, I will use it, and I will tell my friends in the market association about it. You are doing a good thing, young man.\nInterviewer: Is there anything that would stop you from using it?\nBola: Network, maybe. Sometimes the network disappears in the afternoon. And light. If there is no light I cannot charge my phone. But that is Lagos, we manage.\nInterviewer: Last question. If I came back in two months with a working version, would you try it?\nBola: Of course. Bring it, I will try it, you can even come and sit in the shop. And bring the price list.\nInterviewer: Thank you so much, Aunty Bola. I really appreciate your time.\nBola: You are welcome. God will bless your work. Go and eat something before you go, there is rice in the pot."
+    },
+    {
+      "label": "Interview 2: Chinedu, canteen owner in Yaba",
+      "text": "Interviewer: Thanks for meeting me, Chinedu. Can you tell me about your canteen?\nChinedu: Sure, no wahala. It is a small place near the university gate. Twelve seats inside, and a lot of takeaway. I do jollof, fried rice, beans and plantain, some chicken. Students mostly. I opened three years ago after I left my banking job. My uncle lent me the money for the first set of equipment.\nInterviewer: And who works with you?\nChinedu: Two cooks and one girl who serves. I am there from six in the morning till we finish, about nine at night.\nInterviewer: I'm building a mobile app that helps restaurant owners manage their inventory. How do you handle your stock today?\nChinedu: Honestly, I carry most of it in my head. Every morning before the cooks start I walk through the store and look at what is low. Then I write a shopping list on my phone and go to Yaba market or Mile 12, depending on what I need.\nInterviewer: Don't you hate it when you run out of an ingredient in the middle of service?\nChinedu: Ha, who doesn't? Of course, it is the worst feeling. But to be honest, it does not happen to me often. Maybe once in a month, and then we just tell students that the beans is finished.\nInterviewer: So it's a problem but you have a way around it.\nChinedu: When something finishes, we sell the other things and the students still buy. It is not a big thing for me. The small things that finish are normally the extras, like plantain.\nInterviewer: Right. If an app tracked everything automatically so you never ran out, how would that feel?\nChinedu: It sounds like a very good idea. Technology is the future, my friend, I always say so. I used to work in a bank, so I like systems.\nInterviewer: Would you use it?\nChinedu: I would probably try it if it is cheap. Maybe a free month first, then I can see.\nInterviewer: What would \"cheap\" mean to you?\nChinedu: Not more than one thousand, one thousand five hundred naira a month. Every kobo counts for a small place like this one.\nInterviewer: Okay. Have you ever paid for any software or app for the business?\nChinedu: No, never. Everything I use is free. WhatsApp, the phone notes, and Google Sheets for my accounts.\nInterviewer: Tell me about the Google Sheets. How do you use it?\nChinedu: On Sunday I enter the week's sales and the expenses, and I check if I made profit. It takes me about thirty minutes. I learned it at the bank.\nInterviewer: And do you put the stock in there as well?\nChinedu: No. Stock is just in my head. For a place this size, I don't think it is necessary.\nInterviewer: Hmm. What if you had a second branch? Would it change things?\nChinedu: Ah, then yes. If I open a second place, I will need something like that. But that one is far, maybe next year, maybe the year after.\nInterviewer: Do you know other owners around here who struggle with stock?\nChinedu: I think many of them do, especially the ones who are not around all day. But I cannot say for sure. I don't talk about money with the other owners.\nInterviewer: Tell me about the last time a supplier changed your prices. What did you do?\nChinedu: Two months ago the tomato seller in Mile 12 increased the price by almost half, so I called my cousin who sells in Oyingbo and I bought from him for two weeks. I did not need any app for that. It was a phone call. After the two weeks the Mile 12 price came back down and I went back to her, because she gives me credit.\nInterviewer: So credit matters a lot to you.\nChinedu: Very much. I take about one third of my ingredients on credit and I pay on Saturday after the weekend sales. If anything on my phone showed me all that, it would be more useful than the stock thing, to be honest.\nInterviewer: Interesting. Say more about that.\nChinedu: I mean, who I owe, how much, when. Sometimes I forget small small amounts and then the seller reminds me in front of other customers. That is embarrassing, and it has happened to me at least three times this year. If you build something for that, I would take it more seriously.\nInterviewer: And how do you decide how much to order each week?\nChinedu: By feeling. Monday and Tuesday are slow, Thursday and Friday the students come out in full, so I order more for those days. After three years, I know my business.\nInterviewer: Do your cooks ever complain about shortages?\nChinedu: Not really. They know to tell me early. The big cook, Emeka, always says, boss, the oil is almost finished, and I buy it the same day.\nInterviewer: If I send you a link when the app is ready, will you try it?\nChinedu: Yes, send it to me, I will have a look. You are a serious guy, I like what you are doing.\nInterviewer: Is there anything that would make it hard for you to use?\nChinedu: Data. I keep my data off most of the day to save money. I only turn it on when I need to send a message or check my bank. So an app that needs internet all the time would be a problem.\nInterviewer: That's good to know. Anything else I should ask?\nChinedu: Maybe ask the people who sell in bigger quantity. For me, it is small small. But good luck, I believe in you.\nInterviewer: Thanks, Chinedu. Have a good rest of the day.\nChinedu: You too. Come and eat jollof before you go, it is on the house."
+    },
+    {
+      "label": "Interview 3: Funmilayo, owner of two small restaurants in Ikeja",
+      "text": "Interviewer: Madam Funmilayo, thank you for having me. Tell me about your businesses.\nFunmilayo: I have two places. The main restaurant is in Ikeja, near the airport road, forty seats. The second is a smaller food stall in the market, which my daughter manages. We started the restaurant eleven years ago. We sell Nigerian dishes, some continental for the office people, and I do small catering on weekends.\nInterviewer: That's a lot to manage. How many staff do you have?\nFunmilayo: Fourteen between the two places. Cooks, servers, a cleaner, a store keeper. The store keeper is the person who gets the supplies from the market and keeps the store.\nInterviewer: Walk me through how stock is managed. From the moment the supplies arrive.\nFunmilayo: Okay. The store keeper receives the goods, writes it in the stock book, and the cook signs when he takes things out. In theory, that is how it works. At the end of the month my cousin, who is an accountant, comes and reconciles the stock sheets, and I pay him fifteen thousand naira for that.\nInterviewer: And does it reconcile? Do the numbers match?\nFunmilayo: Ha! Never. In March the books said we should have thirty kilos of beef, but the store had less than half, and the difference came to about one hundred and twenty thousand naira. We did not find out until the end of the month, when it was already gone.\nInterviewer: What did you do when you found out?\nFunmilayo: I was very angry. I changed the store keeper, and now I come to the store myself every Monday and Thursday to count the meat and the fish. But I cannot do that forever. I have two places and a family.\nInterviewer: How much of your week does the counting take?\nFunmilayo: Two mornings, about two hours each. Those are four hours I should be using for catering orders.\nInterviewer: You'd definitely use an app that fixes that, right?\nFunmilayo: Yes, of course, I would use it. But the real question is whether my people will use it. The store keeper before could barely write properly.\nInterviewer: What would you need from an app so the staff would use it?\nFunmilayo: It must be very simple. If it has too many buttons, they will not use it. Maybe pictures. And it must work when there is no data, because the store has bad network.\nInterviewer: Have you tried anything like this before?\nFunmilayo: Two years ago I bought a small barcode scanner for the store, but the store keeper never used it, and it is still in a drawer. Maybe I did not train them well. That is my own fault.\nInterviewer: How much did that scanner cost?\nFunmilayo: About thirty-five thousand naira, with the software it came with. It was a waste. So I am careful now.\nInterviewer: Would you pay a monthly fee for something that solved the problem?\nFunmilayo: If it really stops the theft, I can pay up to ten thousand naira a month. Because I already pay my cousin fifteen. If the app replaces him, it is a saving.\nInterviewer: Who else would you want to see the numbers?\nFunmilayo: My daughter, at the stall. And maybe my husband, he likes to check everything. He reads every report I give him, twice.\nInterviewer: Is there anything else about running two places that is hard?\nFunmilayo: Cash. And staff. And gas. Everything in this business is hard, my dear. But the stock thing is the one that costs me money without me seeing it.\nInterviewer: Tell me about the last time the numbers surprised you.\nFunmilayo: Just last week, actually. When I counted on Thursday I found that eight crates of eggs were missing from what the book said, and nobody could explain it. The store keeper said maybe the cook used them for the catering order, but the catering order only needed two crates. So I do not know where six went.\nInterviewer: What did you do about it?\nFunmilayo: I put a padlock on the store and I keep one key. Now the cook has to call me before he can take anything out, even on Sunday during church. It is stressful for everybody, I know. But I cannot lose that kind of money.\nInterviewer: How does the stall in the market compare?\nFunmilayo: My daughter is more careful, because it is smaller, and she counts every evening. She writes it in a school exercise book and sends me a picture on WhatsApp. I check the picture when I have time. But at the restaurant it is too much.\nInterviewer: And what do you do with the picture?\nFunmilayo: Nothing, to be honest. I look at it and say, okay, fine. If there is a big shortage she calls me, if not, we move.\nInterviewer: When you talk to other restaurant owners, do they have the same problem?\nFunmilayo: They all complain about the same thing at the association meeting, so I think it is common. Nobody wants to say how much they lose, though.\nInterviewer: Would you be willing to try a pilot at the main restaurant?\nFunmilayo: Yes, we can try it for a month and see. You are on to something good. But come and meet the store keeper first, so he does not feel I am bringing machine to replace him.\nInterviewer: That's very helpful. Thank you, Madam.\nFunmilayo: You're welcome. Come on Tuesday, I will be in the store."
+    },
+    {
+      "label": "Interview 4: Emeka, mama put owner in Lekki",
+      "text": "Interviewer: Emeka, thank you for the time. I know you are on your feet all day. What's the setup here?\nEmeka: No problem. This place is called Emeka's Table, but everyone calls it Mama Put, because my mother started it. We are in Lekki Phase One, behind the plaza. Twenty-eight seats, and we do a lot of delivery orders on the food apps. I took it over from my mother four years ago when she got sick. She is better now but she only comes to cook the soups on Saturdays.\nInterviewer: How many people work with you?\nEmeka: Nine. Three cooks, two kitchen assistants, three servers, and one rider for our own deliveries.\nInterviewer: I'm working on an app for restaurant inventory. Surely tracking stock by hand is a nightmare for you?\nEmeka: Ah, you have said it very well. Everybody in this business knows that stock is a headache.\nInterviewer: How do you track yours right now?\nEmeka: Last year I built a spreadsheet for the store, with all the items and the prices, and I used it for three weeks and then I stopped. I think it was too much typing. After service I am tired, and the cooks do not want to wait.\nInterviewer: What happened to the stock after you stopped?\nEmeka: We went back to the old way, which is looking at the shelf and asking the kitchen assistants. My kitchen assistant, Samuel, tells me every evening what is low, and I order the next day.\nInterviewer: How often do things run out?\nEmeka: Not too often. Maybe once or twice a month something finishes, like crayfish or egusi, and I send the rider to the market. It is annoying but it is not a disaster.\nInterviewer: So what would change if you had the app?\nEmeka: I love the idea. It is very modern, and I like modern things. I will definitely download it when it is ready.\nInterviewer: And would you pay for it?\nEmeka: I would pay if it is something that really helps, yes. But you know, I already pay for so many things. The food apps take twenty-five percent of every order, and the POS has its own monthly fee.\nInterviewer: Tell me about the food apps. How do you manage orders from them?\nEmeka: They send the order to a tablet, and my server confirms it, and then the kitchen prepares it. Sometimes a customer orders something we already finished, and we have to cancel, and they give us a bad rating. That is actually the thing that hurts me more than the stock.\nInterviewer: Say more about that.\nEmeka: When an item is finished, I have to go to the tablet and switch it off. If I forget, we get three or four cancelled orders and the app reduces my ranking. It happened twice in December.\nInterviewer: So if the app knew what was in stock, it could switch items off for you?\nEmeka: That would be very nice. If it can connect to the food app, I would pay good money for it. But I do not think those apps allow other apps to connect to them.\nInterviewer: Okay. Do other owners around Lekki have the same problems?\nEmeka: I believe most restaurants in Lekki don't track their stock at all. They are just guessing. Some of them are doing well anyway.\nInterviewer: And what about you? Do you think you need better tracking?\nEmeka: I think I could do better, but I am not sure that I need an app for it. If I had more time, maybe I would sit down and fix the spreadsheet.\nInterviewer: What did the spreadsheet look like? What did you put in it?\nEmeka: I had one column for the item, one for the quantity, one for the price, and one for the date I bought it. I even made it colourful. The problem was that every delivery needed me to open the laptop, and the laptop stays at home.\nInterviewer: So the laptop was the obstacle.\nEmeka: Partly. The bigger thing is that the numbers were never right the next day. Samuel would use something from the store at night and not tell me, so my sheet said we had more than we really had. After two or three days I stopped believing the sheet, and then I stopped opening it.\nInterviewer: How did you feel when you stopped?\nEmeka: Relieved, if I am honest. When you track stock, it feels like you are always behind. Now I just walk in and look.\nInterviewer: Let me ask about the delivery apps again. How much of your revenue comes through them?\nEmeka: About a third of our sales come from the food apps now, and it keeps growing. That is why the cancelled orders worry me. Every cancelled order is money and ranking.\nInterviewer: Would you check an app on your phone every evening, as part of closing the shop?\nEmeka: Yes, if it is simple, I can do it before I close. But I told you, I said the same thing about the spreadsheet in the beginning.\nInterviewer: Would you share your old spreadsheet with me? It would help me understand how you thought about it.\nEmeka: Sure, I will send it. You are very thorough, I like that.\nInterviewer: One last thing. If you had to pick, what is the most annoying part of running the kitchen?\nEmeka: Honestly? Staff turnover. Every three months somebody leaves and I have to train another person from zero. So any app must be simple enough that a new person can learn it in one day.\nInterviewer: That's a very useful constraint. Thank you, Emeka.\nEmeka: My pleasure. Take some chin chin before you go."
+    },
+    {
+      "label": "Interview 5: Tunde, owner of a long-running buka in Mushin",
+      "text": "Interviewer: Mr Alabi, thank you for letting me come. Please tell me about the place.\nTunde: Call me Tunde. This place is called Alabi's Pot, and I have been here fifteen years. Before I had a stall at the bus stop, then I rented this shop. We do amala, ewedu, gbegiri, pounded yam, assorted meat. Thirty plates is a slow day, sixty on a market day. My wife started with me, now she runs the kitchen and I run the front and the money.\nInterviewer: How many people work here?\nTunde: Seven. Two of them have been with me for ten years. The others come and go.\nInterviewer: I'm building a mobile app to help restaurant owners keep track of their stock. Before I talk about it, can you tell me how you manage your stock now?\nTunde: Every morning at six, before the fire is lit, my wife and I walk through the store and count the main things with our eyes, the yam, the flour, the oil, the meat in the freezer, and we write the shopping list on the back of the previous day's receipt. It takes fifteen minutes.\nInterviewer: And how often do you run out of things?\nTunde: In the last two years I have not run out of anything important on a trading day, not once. Maybe small things like pepper, once or twice. But that is not a thing to talk about.\nInterviewer: Okay. And what about theft or waste? Do you track losses?\nTunde: The staff who have been with me ten years don't steal, and I know the new ones will try, so I watch them. I stand in the front and I count the plates that go out, and at the end of the day the money must match the plates. Anything else is not necessary.\nInterviewer: Have you tried any tools or apps for the business?\nTunde: Last year a young man came with a stock app, he sold it to me for four thousand naira for the year, I installed it, I used it for one week and then I deleted it.\nInterviewer: What happened in that week?\nTunde: Everything we did in fifteen minutes in the morning now took one hour. I had to type every bag of flour, every tomato, every little thing, and my wife could not read the small letters on the phone. My wife said, Tunde, are we now working for the phone or is the phone working for us?\nInterviewer: That's really useful. What did you do with the four thousand naira?\nTunde: I lost it. Business is business, you cannot cry for four thousand naira. But I learned.\nInterviewer: If an app could do all of that automatically, without any typing, how would you feel about it?\nTunde: It is a nice idea. It is a nice idea for the big hotels and the places that have manager. But I am not a hotel.\nInterviewer: Would you pay for it?\nTunde: No. I would not pay for it. Not five thousand a month, not two thousand. I pay my suppliers, my light bill, my generator fuel, my rent, I don't pay apps.\nInterviewer: What would have to be true for you to change your mind?\nTunde: If it was free and it did everything by itself, I would look at it, but I still would not pay monthly. Because next year somebody comes with another one.\nInterviewer: Tell me about a time when you did pay for a tool or service that helped the business.\nTunde: I bought a big deep freezer three years ago for four hundred and fifty thousand naira, because without it the meat was spoiling. That one I could see. I put meat in it, I take meat out.\nInterviewer: So you pay for things that solve a problem you can see.\nTunde: Exactly. If I cannot see the problem, I will not pay for the solution.\nInterviewer: What happens on a day when your wife is not around?\nTunde: When she travelled for her sister's wedding last year, the senior cook did the morning count with me, and we did not miss a single item for the whole week. The routine is in our hands now. It is not in a phone.\nInterviewer: And when the price of things changes, how do you find out?\nTunde: I go to the market twice a week myself, and the women there tell me the new price before I ask. I have known some of them for twenty years.\nInterviewer: Do you think other owners would pay?\nTunde: Maybe the ones who have many branches, I don't know. I only know about myself. The buka owners I know are like me: the person who owns the place is there every day. If you are not there every day, the place will fall.\nInterviewer: Thank you for being so direct. This is exactly what I need to hear.\nTunde: You are welcome. Maybe you should build it for the big restaurants, not for us.\nInterviewer: Is there anything else you want to tell me?\nTunde: Only that you should go and sit in the shops. Don't sit in an office and build things. See how we do it, and you will see that sometimes the old way is fine.\nInterviewer: I'll do that. Thanks again, Tunde.\nTunde: Go well. And don't leave without eating."
+    },
+    {
+      "label": "Interview 6: Ngozi, restaurant and catering owner in Victoria Island",
+      "text": "Interviewer: Ngozi, thanks for fitting me in. I know your lunch crowd is coming soon. Tell me about the business.\nNgozi: Sure, I have about twenty minutes. I run a thirty-seat restaurant on Victoria Island, mostly office workers from the banks around here, and a catering arm that does office lunches and events. We have been open for six years. We started with five staff, now we are at fifteen. The catering side is about forty percent of our revenue.\nInterviewer: That's a big operation for a small team. How do you manage inventory across the restaurant and the catering?\nNgozi: With difficulty, honestly. We have a shared WhatsApp group with the kitchen manager, the chef and me, and every evening the chef posts a photo of the store shelves. Then I look at the picture and say what to buy. Sometimes the picture is blurry.\nInterviewer: Do you have any software for the business at all?\nNgozi: Yes. We pay eight thousand naira every month for a POS system, which handles sales, receipts and the daily report. It has been about eighteen months. It also came with a stock module.\nInterviewer: And do you use the stock module?\nNgozi: No. We bought it and the stock part has been empty since the first week, because nobody has time to enter the deliveries. The chef says he is a chef, not a data entry person. And I agree with him.\nInterviewer: So what would you want from a different tool?\nNgozi: Something that doesn't need people to type. If a tool needs my staff to do extra work, it will die in a month. I have seen it happen with three different things.\nInterviewer: Wouldn't it be amazing if a tool could do all the counting for you?\nNgozi: It would be nice, yes. It sounds like a really good concept.\nInterviewer: How much does the lack of visibility cost you?\nNgozi: I have not measured it. What I know is that last quarter we had to substitute a protein on two catering orders because the store was short, and one client complained. It's the kind of thing that damages reputation.\nInterviewer: What did you do after the complaint?\nNgozi: I apologised and gave a discount on their next order. That discount was about twenty percent of a hundred and eighty thousand naira order. Then I told the chef to count the freezer more carefully, and that lasted about two weeks.\nInterviewer: Would you pay for something that fixed the stock visibility?\nNgozi: Probably, if the price makes sense and it doesn't need extra work. But I want to see it work with my own stock first.\nInterviewer: Do you have a number in mind?\nNgozi: I would pay maybe ten to fifteen thousand a month if it saved us from even one bad order. But I want a trial, not a contract.\nInterviewer: Okay. And who makes decisions on tools like this, you or someone else?\nNgozi: Me, with my operations manager. We decided on the POS together after watching three demos and testing one for a month. I do not buy things quickly.\nInterviewer: What was it about the POS that convinced you?\nNgozi: The support. When the receipt printer failed on a Friday, they sent someone within two hours, and I remember that. For a tool like yours, that matters more than features.\nInterviewer: How do you handle ordering for a big catering event, say a hundred people?\nNgozi: We plan it on paper three days before. The chef writes the menu, I convert it to quantities in a spreadsheet, and the kitchen manager goes to the market the day before with cash. It works when the numbers are small. For events, one mistake is expensive.\nInterviewer: Has there been a mistake recently?\nNgozi: A few months ago we under-ordered chicken for a wedding of one hundred and twenty guests. We had to send a rider to two different markets at six in the morning, and the chicken cost us almost double the price. The client never knew, but I did.\nInterviewer: And how did you feel about the cost?\nNgozi: Annoyed with myself. It was not the app's fault, nobody's fault. It was a planning mistake on my side, and a tool would not have fixed it alone. I'd say it is the combination of a good process and good tools.\nInterviewer: Do you think your staff would accept a new tool?\nNgozi: The younger ones, yes. The older cooks sometimes resist anything new, but they come around if they see it saves their time. The kitchen manager is the key person. If he likes it, everyone will follow.\nInterviewer: That's a helpful point. Anything else you'd want me to know?\nNgozi: I would say talk to my chef. You seem to ask the right questions. He understands the store better than I do.\nInterviewer: I'd love that. Thanks so much, Ngozi.\nNgozi: Anytime. Here is his number."
+    }
+  ],
+  "cached": {
+    "generatedBy": "curated by the signol authors from annotated demo transcripts (seed/src); regenerate with `npm run cache:demo` using a live model",
+    "statements": [
+      {
+        "key": "i1s1",
+        "interview": 0,
+        "turn_idx": 3,
+        "quote": "Every night when we close, I write down what came in and what is left in a big notebook",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes a concrete, current manual routine; shows a process exists, not that she would pay to replace it."
+      },
+      {
+        "key": "i1s2",
+        "interview": 0,
+        "turn_idx": 3,
+        "quote": "My younger sister Kemi sits with me and we check it against the receipts, and it takes about an hour",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "Quantifies the time cost of the manual process: an hour every night."
+      },
+      {
+        "key": "i1s3",
+        "interview": 0,
+        "turn_idx": 5,
+        "quote": "Last month we ran out of rice on a Friday afternoon, and Friday is my best day",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "A specific, recent incident: stock-out on a busy day, linked to the notebook process."
+      },
+      {
+        "key": "i1s4",
+        "interview": 0,
+        "turn_idx": 9,
+        "quote": "Oh, that would be fantastic",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Agreement with a leading question, with no behavior behind it."
+      },
+      {
+        "key": "i1s5",
+        "interview": 0,
+        "turn_idx": 9,
+        "quote": "I would definitely pay for something like that",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A promise prompted by the interviewer's pitch; weak evidence."
+      },
+      {
+        "key": "i1s6",
+        "interview": 0,
+        "turn_idx": 9,
+        "quote": "That is a brilliant idea, my dear",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise with nothing attached."
+      },
+      {
+        "key": "i1s7",
+        "interview": 0,
+        "turn_idx": 11,
+        "quote": "If it is not too costly, I can pay two or three thousand naira a month",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A hypothetical price offered on the spot, no commitment."
+      },
+      {
+        "key": "i1s8",
+        "interview": 0,
+        "turn_idx": 13,
+        "quote": "We have never used a special app for the kitchen or the stock",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Names the tools actually used; none are for inventory."
+      },
+      {
+        "key": "i1s9",
+        "interview": 0,
+        "turn_idx": 17,
+        "quote": "The staff can learn if you teach them slowly",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A general statement about staff attitudes, not a measured behavior."
+      },
+      {
+        "key": "i1s10",
+        "interview": 0,
+        "turn_idx": 19,
+        "quote": "Yes, I would enter everything, every single day",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Promises future diligence; contradicts her own admission about the earlier app."
+      },
+      {
+        "key": "i1s11",
+        "interview": 0,
+        "turn_idx": 23,
+        "quote": "The rice woman and the meat seller, I pay them on Saturdays for the whole week",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A neutral description of existing payment habits."
+      },
+      {
+        "key": "i1s12",
+        "interview": 0,
+        "turn_idx": 27,
+        "quote": "I think most buka owners are suffering the same way, because everybody uses notebook",
+        "type": "opinion_general",
+        "stance": "supports",
+        "rationale": "Generalizes about other owners without naming a specific case."
+      },
+      {
+        "key": "i1s13",
+        "interview": 0,
+        "turn_idx": 29,
+        "quote": "Yes, I will use it, and I will tell my friends in the market association about it",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Another promise in response to a direct yes/no question."
+      },
+      {
+        "key": "i1s14",
+        "interview": 0,
+        "turn_idx": 29,
+        "quote": "You are doing a good thing, young man",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise, no behavior."
+      },
+      {
+        "key": "i1s15",
+        "interview": 0,
+        "turn_idx": 33,
+        "quote": "Bring it, I will try it, you can even come and sit in the shop",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Says she will try it; unlike a purchase or a trial, it costs her nothing to say."
+      },
+      {
+        "key": "i1s16",
+        "interview": 0,
+        "turn_idx": 35,
+        "quote": "God will bless your work",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Closing encouragement with no evidence content."
+      },
+      {
+        "key": "i2s1",
+        "interview": 1,
+        "turn_idx": 5,
+        "quote": "Every morning before the cooks start I walk through the store and look at what is low",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A concrete description of his current method: memory plus a quick look at the shelves."
+      },
+      {
+        "key": "i2s2",
+        "interview": 1,
+        "turn_idx": 7,
+        "quote": "Of course, it is the worst feeling",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Polite agreement with a leading question; says nothing specific."
+      },
+      {
+        "key": "i2s3",
+        "interview": 1,
+        "turn_idx": 9,
+        "quote": "When something finishes, we sell the other things and the students still buy",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "A real but minor, infrequent issue the owner has already absorbed."
+      },
+      {
+        "key": "i2s4",
+        "interview": 1,
+        "turn_idx": 11,
+        "quote": "It sounds like a very good idea",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Generic praise for the concept."
+      },
+      {
+        "key": "i2s5",
+        "interview": 1,
+        "turn_idx": 11,
+        "quote": "Technology is the future, my friend, I always say so",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise with no commitment."
+      },
+      {
+        "key": "i2s6",
+        "interview": 1,
+        "turn_idx": 13,
+        "quote": "I would probably try it if it is cheap",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A soft, conditional promise; no price or timing."
+      },
+      {
+        "key": "i2s7",
+        "interview": 1,
+        "turn_idx": 15,
+        "quote": "Every kobo counts for a small place like this one",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A general remark about what students and owners accept, not about him."
+      },
+      {
+        "key": "i2s8",
+        "interview": 1,
+        "turn_idx": 17,
+        "quote": "No, never. Everything I use is free. WhatsApp, the phone notes, and Google Sheets for my accounts",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete past behavior: he has never paid for a business app, which is relevant to willingness to pay monthly."
+      },
+      {
+        "key": "i2s9",
+        "interview": 1,
+        "turn_idx": 19,
+        "quote": "On Sunday I enter the week's sales and the expenses, and I check if I made profit",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes real, current record-keeping for sales (not stock)."
+      },
+      {
+        "key": "i2s10",
+        "interview": 1,
+        "turn_idx": 21,
+        "quote": "For a place this size, I don't think it is necessary",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "Opinion that stock tracking is not worth the effort for him."
+      },
+      {
+        "key": "i2s11",
+        "interview": 1,
+        "turn_idx": 23,
+        "quote": "If I open a second place, I will need something like that",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A conditional promise tied to a hypothetical second branch."
+      },
+      {
+        "key": "i2s12",
+        "interview": 1,
+        "turn_idx": 25,
+        "quote": "I think many of them do, especially the ones who are not around all day",
+        "type": "opinion_general",
+        "stance": "supports",
+        "rationale": "A claim about other people with no specific example."
+      },
+      {
+        "key": "i2s13",
+        "interview": 1,
+        "turn_idx": 27,
+        "quote": "Two months ago the tomato seller in Mile 12 increased the price by almost half, so I called my cousin who sells in Oyingbo and I bought from him for two weeks",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes how he actually reacts to cost changes: calls around and switches suppliers."
+      },
+      {
+        "key": "i2s14",
+        "interview": 1,
+        "turn_idx": 29,
+        "quote": "I take about one third of my ingredients on credit and I pay on Saturday after the weekend sales",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A concrete financing habit: buys on credit and pays on weekends."
+      },
+      {
+        "key": "i2s15",
+        "interview": 1,
+        "turn_idx": 31,
+        "quote": "That is embarrassing, and it has happened to me at least three times this year",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "A specific, recurring pain, but about debts to suppliers rather than stock levels."
+      },
+      {
+        "key": "i2s16",
+        "interview": 1,
+        "turn_idx": 33,
+        "quote": "Monday and Tuesday are slow, Thursday and Friday the students come out in full, so I order more for those days",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "His own rule of thumb, stated as opinion."
+      },
+      {
+        "key": "i2s17",
+        "interview": 1,
+        "turn_idx": 35,
+        "quote": "The big cook, Emeka, always says, boss, the oil is almost finished, and I buy it the same day",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "Says shortages are rare and handled by the cooks speaking up."
+      },
+      {
+        "key": "i2s18",
+        "interview": 1,
+        "turn_idx": 37,
+        "quote": "Yes, send it to me, I will have a look",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Agrees to try a free link; costs him nothing."
+      },
+      {
+        "key": "i2s19",
+        "interview": 1,
+        "turn_idx": 37,
+        "quote": "You are a serious guy, I like what you are doing",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Courtesy."
+      },
+      {
+        "key": "i2s20",
+        "interview": 1,
+        "turn_idx": 39,
+        "quote": "I only turn it on when I need to send a message or check my bank",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "A concrete constraint on app usage that he describes as part of daily routine."
+      },
+      {
+        "key": "i2s21",
+        "interview": 1,
+        "turn_idx": 41,
+        "quote": "But good luck, I believe in you",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Encouraging but empty remark."
+      },
+      {
+        "key": "i3s1",
+        "interview": 2,
+        "turn_idx": 5,
+        "quote": "The store keeper receives the goods, writes it in the stock book, and the cook signs when he takes things out",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A detailed, current manual process with a clear point of failure."
+      },
+      {
+        "key": "i3s2",
+        "interview": 2,
+        "turn_idx": 5,
+        "quote": "At the end of the month my cousin, who is an accountant, comes and reconciles the stock sheets, and I pay him fifteen thousand naira for that",
+        "type": "past_behavior",
+        "stance": "supports",
+        "rationale": "A concrete recurring cost: she already pays a person monthly to reconcile stock records."
+      },
+      {
+        "key": "i3s3",
+        "interview": 2,
+        "turn_idx": 7,
+        "quote": "In March the books said we should have thirty kilos of beef, but the store had less than half, and the difference came to about one hundred and twenty thousand naira",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "A specific, quantified loss from stock mismatch, discovered in a recent month."
+      },
+      {
+        "key": "i3s4",
+        "interview": 2,
+        "turn_idx": 9,
+        "quote": "I changed the store keeper, and now I come to the store myself every Monday and Thursday to count the meat and the fish",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes a concrete action taken in response to the problem; a workaround rather than a purchase."
+      },
+      {
+        "key": "i3s5",
+        "interview": 2,
+        "turn_idx": 11,
+        "quote": "Those are four hours I should be using for catering orders",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "Quantifies the personal time cost of the current workaround."
+      },
+      {
+        "key": "i3s6",
+        "interview": 2,
+        "turn_idx": 13,
+        "quote": "Yes, of course, I would use it",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A promise elicited by a leading question; weak evidence by itself."
+      },
+      {
+        "key": "i3s7",
+        "interview": 2,
+        "turn_idx": 15,
+        "quote": "If it has too many buttons, they will not use it",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A product requirement stated as an opinion, not past behavior."
+      },
+      {
+        "key": "i3s8",
+        "interview": 2,
+        "turn_idx": 17,
+        "quote": "Two years ago I bought a small barcode scanner for the store, but the store keeper never used it, and it is still in a drawer",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete past attempt that failed because of staff adoption."
+      },
+      {
+        "key": "i3s9",
+        "interview": 2,
+        "turn_idx": 21,
+        "quote": "If it really stops the theft, I can pay up to ten thousand naira a month",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A conditional promise tied to price, with a ceiling she names."
+      },
+      {
+        "key": "i3s10",
+        "interview": 2,
+        "turn_idx": 23,
+        "quote": "He reads every report I give him, twice",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A neutral detail about how decisions are made in the household business."
+      },
+      {
+        "key": "i3s11",
+        "interview": 2,
+        "turn_idx": 25,
+        "quote": "Everything in this business is hard, my dear",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A general complaint about running a restaurant."
+      },
+      {
+        "key": "i3s12",
+        "interview": 2,
+        "turn_idx": 27,
+        "quote": "When I counted on Thursday I found that eight crates of eggs were missing from what the book said, and nobody could explain it",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "A recent, specific discovery of loss, found through manual counting."
+      },
+      {
+        "key": "i3s13",
+        "interview": 2,
+        "turn_idx": 29,
+        "quote": "Now the cook has to call me before he can take anything out, even on Sunday during church",
+        "type": "past_behavior",
+        "stance": "supports",
+        "rationale": "Concrete protective action: a padlock and a single key held by her."
+      },
+      {
+        "key": "i3s14",
+        "interview": 2,
+        "turn_idx": 31,
+        "quote": "She writes it in a school exercise book and sends me a picture on WhatsApp",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes her daughter's nightly counting routine, a working manual process."
+      },
+      {
+        "key": "i3s15",
+        "interview": 2,
+        "turn_idx": 35,
+        "quote": "They all complain about the same thing at the association meeting, so I think it is common",
+        "type": "opinion_general",
+        "stance": "supports",
+        "rationale": "Claims other owners share the problem; hearsay rather than evidence."
+      },
+      {
+        "key": "i3s16",
+        "interview": 2,
+        "turn_idx": 37,
+        "quote": "Yes, we can try it for a month and see",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Agrees to a pilot; no commitment of money or staff time."
+      },
+      {
+        "key": "i3s17",
+        "interview": 2,
+        "turn_idx": 37,
+        "quote": "You are on to something good",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise, nothing attached."
+      },
+      {
+        "key": "i4s1",
+        "interview": 3,
+        "turn_idx": 5,
+        "quote": "Ah, you have said it very well",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Agrees politely with the leading framing; says nothing about his own practice."
+      },
+      {
+        "key": "i4s2",
+        "interview": 3,
+        "turn_idx": 5,
+        "quote": "Everybody in this business knows that stock is a headache",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A broad statement about the restaurant trade, not about his own behavior."
+      },
+      {
+        "key": "i4s3",
+        "interview": 3,
+        "turn_idx": 7,
+        "quote": "Last year I built a spreadsheet for the store, with all the items and the prices, and I used it for three weeks and then I stopped",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "Describes a concrete attempt to use a tool that he abandoned after three weeks."
+      },
+      {
+        "key": "i4s4",
+        "interview": 3,
+        "turn_idx": 9,
+        "quote": "My kitchen assistant, Samuel, tells me every evening what is low, and I order the next day",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A neutral description of the fallback routine."
+      },
+      {
+        "key": "i4s5",
+        "interview": 3,
+        "turn_idx": 11,
+        "quote": "Maybe once or twice a month something finishes, like crayfish or egusi, and I send the rider to the market",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "Minor, infrequent: the owner does not describe a costly problem."
+      },
+      {
+        "key": "i4s6",
+        "interview": 3,
+        "turn_idx": 13,
+        "quote": "I love the idea",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Generic enthusiasm."
+      },
+      {
+        "key": "i4s7",
+        "interview": 3,
+        "turn_idx": 13,
+        "quote": "It is very modern, and I like modern things",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "More generic enthusiasm."
+      },
+      {
+        "key": "i4s8",
+        "interview": 3,
+        "turn_idx": 13,
+        "quote": "I will definitely download it when it is ready",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A promise with no price, timeline, or trial attached."
+      },
+      {
+        "key": "i4s9",
+        "interview": 3,
+        "turn_idx": 15,
+        "quote": "I would pay if it is something that really helps, yes",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Another soft promise with a conditional."
+      },
+      {
+        "key": "i4s10",
+        "interview": 3,
+        "turn_idx": 17,
+        "quote": "They send the order to a tablet, and my server confirms it, and then the kitchen prepares it",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Concrete detail about delivery platforms and what he is already paying."
+      },
+      {
+        "key": "i4s11",
+        "interview": 3,
+        "turn_idx": 19,
+        "quote": "If I forget, we get three or four cancelled orders and the app reduces my ranking",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "A specific, recurring pain, closer to stock visibility than anything else he says."
+      },
+      {
+        "key": "i4s12",
+        "interview": 3,
+        "turn_idx": 21,
+        "quote": "If it can connect to the food app, I would pay good money for it",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A hypothetical reaction to a feature idea; no commitment."
+      },
+      {
+        "key": "i4s13",
+        "interview": 3,
+        "turn_idx": 23,
+        "quote": "I believe most restaurants in Lekki don't track their stock at all",
+        "type": "opinion_general",
+        "stance": "supports",
+        "rationale": "Claims about others without a specific example."
+      },
+      {
+        "key": "i4s14",
+        "interview": 3,
+        "turn_idx": 25,
+        "quote": "I think I could do better, but I am not sure that I need an app for it",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "Self-assessment with no supporting behavior."
+      },
+      {
+        "key": "i4s15",
+        "interview": 3,
+        "turn_idx": 27,
+        "quote": "I had one column for the item, one for the quantity, one for the price, and one for the date I bought it",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes the structure of the abandoned spreadsheet in concrete terms."
+      },
+      {
+        "key": "i4s16",
+        "interview": 3,
+        "turn_idx": 29,
+        "quote": "Samuel would use something from the store at night and not tell me, so my sheet said we had more than we really had",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "Explains why his past tracking attempt lost credibility, without a cost attached."
+      },
+      {
+        "key": "i4s17",
+        "interview": 3,
+        "turn_idx": 31,
+        "quote": "When you track stock, it feels like you are always behind",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A general feeling about recording stock, offered as opinion."
+      },
+      {
+        "key": "i4s18",
+        "interview": 3,
+        "turn_idx": 33,
+        "quote": "About a third of our sales come from the food apps now, and it keeps growing",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Concrete figure on the revenue mix, useful context for the product."
+      },
+      {
+        "key": "i4s19",
+        "interview": 3,
+        "turn_idx": 35,
+        "quote": "Yes, if it is simple, I can do it before I close",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A promise about future routine; he already abandoned a similar habit."
+      },
+      {
+        "key": "i4s20",
+        "interview": 3,
+        "turn_idx": 37,
+        "quote": "You are very thorough, I like that",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Courtesy."
+      },
+      {
+        "key": "i4s21",
+        "interview": 3,
+        "turn_idx": 39,
+        "quote": "Every three months somebody leaves and I have to train another person from zero",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "A significant pain, but unrelated to inventory."
+      },
+      {
+        "key": "i5s1",
+        "interview": 4,
+        "turn_idx": 5,
+        "quote": "Every morning at six, before the fire is lit, my wife and I walk through the store and count the main things with our eyes, the yam, the flour, the oil, the meat in the freezer, and we write the shopping list on the back of the previous day's receipt",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete, current routine that works for him and the head cook; no tool involved."
+      },
+      {
+        "key": "i5s2",
+        "interview": 4,
+        "turn_idx": 7,
+        "quote": "In the last two years I have not run out of anything important on a trading day, not once",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A strong, specific outcome that contradicts the existence of the problem."
+      },
+      {
+        "key": "i5s3",
+        "interview": 4,
+        "turn_idx": 9,
+        "quote": "I stand in the front and I count the plates that go out, and at the end of the day the money must match the plates",
+        "type": "current_pain",
+        "stance": "neutral",
+        "rationale": "Says loss is controlled by supervision, not by a system."
+      },
+      {
+        "key": "i5s4",
+        "interview": 4,
+        "turn_idx": 11,
+        "quote": "Last year a young man came with a stock app, he sold it to me for four thousand naira for the year, I installed it, I used it for one week and then I deleted it",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete failed attempt: he tried an inventory app and abandoned it after a week."
+      },
+      {
+        "key": "i5s5",
+        "interview": 4,
+        "turn_idx": 13,
+        "quote": "I had to type every bag of flour, every tomato, every little thing, and my wife could not read the small letters on the phone",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "Quantifies why the tool made things worse: more time than the manual routine."
+      },
+      {
+        "key": "i5s6",
+        "interview": 4,
+        "turn_idx": 17,
+        "quote": "It is a nice idea for the big hotels and the places that have manager",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Polite praise for the concept in general."
+      },
+      {
+        "key": "i5s7",
+        "interview": 4,
+        "turn_idx": 19,
+        "quote": "No. I would not pay for it. Not five thousand a month, not two thousand",
+        "type": "future_promise",
+        "stance": "contradicts",
+        "rationale": "A clear refusal to pay, stated with a price, which is rare and valuable."
+      },
+      {
+        "key": "i5s8",
+        "interview": 4,
+        "turn_idx": 19,
+        "quote": "I pay my suppliers, my light bill, my generator fuel, my rent, I don't pay apps",
+        "type": "opinion_general",
+        "stance": "contradicts",
+        "rationale": "States his general view on paying monthly for apps."
+      },
+      {
+        "key": "i5s9",
+        "interview": 4,
+        "turn_idx": 21,
+        "quote": "If it was free and it did everything by itself, I would look at it, but I still would not pay monthly",
+        "type": "future_promise",
+        "stance": "contradicts",
+        "rationale": "Names a hypothetical condition, but still refuses a monthly fee."
+      },
+      {
+        "key": "i5s10",
+        "interview": 4,
+        "turn_idx": 23,
+        "quote": "I bought a big deep freezer three years ago for four hundred and fifty thousand naira, because without it the meat was spoiling",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A concrete example of what he does pay for: a physical, one-off purchase."
+      },
+      {
+        "key": "i5s11",
+        "interview": 4,
+        "turn_idx": 25,
+        "quote": "If I cannot see the problem, I will not pay for the solution",
+        "type": "opinion_general",
+        "stance": "contradicts",
+        "rationale": "A principle that frames inventory software as an invisible benefit."
+      },
+      {
+        "key": "i5s12",
+        "interview": 4,
+        "turn_idx": 27,
+        "quote": "When she travelled for her sister's wedding last year, the senior cook did the morning count with me, and we did not miss a single item for the whole week",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete example of the process continuing without one person; the routine is robust."
+      },
+      {
+        "key": "i5s13",
+        "interview": 4,
+        "turn_idx": 29,
+        "quote": "I go to the market twice a week myself, and the women there tell me the new price before I ask",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes how he learns about prices: directly from sellers, in person."
+      },
+      {
+        "key": "i5s14",
+        "interview": 4,
+        "turn_idx": 31,
+        "quote": "Maybe the ones who have many branches, I don't know",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "Speculation about others, offered as a hunch."
+      },
+      {
+        "key": "i5s15",
+        "interview": 4,
+        "turn_idx": 33,
+        "quote": "Maybe you should build it for the big restaurants, not for us",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Mild encouragement, not a commitment."
+      },
+      {
+        "key": "i6s1",
+        "interview": 5,
+        "turn_idx": 3,
+        "quote": "We have a shared WhatsApp group with the kitchen manager, the chef and me, and every evening the chef posts a photo of the store shelves",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A concrete, current routine that is clearly strained at her scale."
+      },
+      {
+        "key": "i6s2",
+        "interview": 5,
+        "turn_idx": 5,
+        "quote": "We pay eight thousand naira every month for a POS system, which handles sales, receipts and the daily report",
+        "type": "past_behavior",
+        "stance": "supports",
+        "rationale": "A real, current monthly payment for business software, which is direct evidence of willingness to pay."
+      },
+      {
+        "key": "i6s3",
+        "interview": 5,
+        "turn_idx": 7,
+        "quote": "No. We bought it and the stock part has been empty since the first week, because nobody has time to enter the deliveries",
+        "type": "past_behavior",
+        "stance": "contradicts",
+        "rationale": "A concrete example of paying for a stock feature and not using it, with the reason."
+      },
+      {
+        "key": "i6s4",
+        "interview": 5,
+        "turn_idx": 9,
+        "quote": "If a tool needs my staff to do extra work, it will die in a month",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A product wish stated as an opinion."
+      },
+      {
+        "key": "i6s5",
+        "interview": 5,
+        "turn_idx": 11,
+        "quote": "It would be nice, yes",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Polite agreement with a leading question."
+      },
+      {
+        "key": "i6s6",
+        "interview": 5,
+        "turn_idx": 11,
+        "quote": "It sounds like a really good concept",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise for the idea in the abstract."
+      },
+      {
+        "key": "i6s7",
+        "interview": 5,
+        "turn_idx": 13,
+        "quote": "What I know is that last quarter we had to substitute a protein on two catering orders because the store was short, and one client complained",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "Describes a specific, recurring incident type and its effect on catering clients."
+      },
+      {
+        "key": "i6s8",
+        "interview": 5,
+        "turn_idx": 15,
+        "quote": "That discount was about twenty percent of a hundred and eighty thousand naira order",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Concrete consequence: a discount to repair a client relationship."
+      },
+      {
+        "key": "i6s9",
+        "interview": 5,
+        "turn_idx": 17,
+        "quote": "Probably, if the price makes sense and it doesn't need extra work",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "A conditional promise tied to savings she has not measured."
+      },
+      {
+        "key": "i6s10",
+        "interview": 5,
+        "turn_idx": 19,
+        "quote": "I would pay maybe ten to fifteen thousand a month if it saved us from even one bad order",
+        "type": "future_promise",
+        "stance": "supports",
+        "rationale": "Names a hypothetical price band; no commitment."
+      },
+      {
+        "key": "i6s11",
+        "interview": 5,
+        "turn_idx": 21,
+        "quote": "We decided on the POS together after watching three demos and testing one for a month",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A neutral detail about how purchasing decisions are made."
+      },
+      {
+        "key": "i6s12",
+        "interview": 5,
+        "turn_idx": 23,
+        "quote": "When the receipt printer failed on a Friday, they sent someone within two hours, and I remember that",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "Describes what drove her purchase: responsive support."
+      },
+      {
+        "key": "i6s13",
+        "interview": 5,
+        "turn_idx": 25,
+        "quote": "The chef writes the menu, I convert it to quantities in a spreadsheet, and the kitchen manager goes to the market the day before with cash",
+        "type": "past_behavior",
+        "stance": "neutral",
+        "rationale": "A concrete, current planning routine for large orders."
+      },
+      {
+        "key": "i6s14",
+        "interview": 5,
+        "turn_idx": 27,
+        "quote": "We had to send a rider to two different markets at six in the morning, and the chicken cost us almost double the price",
+        "type": "current_pain",
+        "stance": "supports",
+        "rationale": "A concrete, costly stock failure at a high-stakes event."
+      },
+      {
+        "key": "i6s15",
+        "interview": 5,
+        "turn_idx": 29,
+        "quote": "It was a planning mistake on my side, and a tool would not have fixed it alone",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "Reflection on the cause of the error; not about a tool."
+      },
+      {
+        "key": "i6s16",
+        "interview": 5,
+        "turn_idx": 31,
+        "quote": "The older cooks sometimes resist anything new, but they come around if they see it saves their time",
+        "type": "opinion_general",
+        "stance": "neutral",
+        "rationale": "A general statement about staff adoption, unspecific."
+      },
+      {
+        "key": "i6s17",
+        "interview": 5,
+        "turn_idx": 33,
+        "quote": "You seem to ask the right questions",
+        "type": "compliment",
+        "stance": "neutral",
+        "rationale": "Praise for the founder, nothing attached."
+      }
+    ],
+    "leading": [
+      {
+        "interview": 0,
+        "turn_idx": 8,
+        "question": "Wouldn't it be great if an app counted your stock for you, so you never ran out on a Friday again",
+        "why_leading": "It pitches the solution inside the question and invites agreement instead of asking what she does today.",
+        "neutral_rewrite": "Tell me about the last time you ran out of something you needed. What happened, and what did you do next?",
+        "tainted_turn_idxs": [
+          9
+        ]
+      },
+      {
+        "interview": 1,
+        "turn_idx": 6,
+        "question": "Don't you hate it when you run out of an ingredient in the middle of service",
+        "why_leading": "It presupposes that running out is hated and invites a polite yes.",
+        "neutral_rewrite": "When was the last time an ingredient ran out in the middle of service? What did you do?",
+        "tainted_turn_idxs": [
+          7
+        ]
+      },
+      {
+        "interview": 2,
+        "turn_idx": 12,
+        "question": "You'd definitely use an app that fixes that, right",
+        "why_leading": "It asks for a future promise and ends with 'right?' to invite agreement.",
+        "neutral_rewrite": "If a tool for this existed today, what would you have to see before you changed how your store keeper works?",
+        "tainted_turn_idxs": [
+          13
+        ]
+      },
+      {
+        "interview": 3,
+        "turn_idx": 4,
+        "question": "Surely tracking stock by hand is a nightmare for you",
+        "why_leading": "It presupposes that tracking by hand is a nightmare and signals the answer the founder wants.",
+        "neutral_rewrite": "Walk me through how you keep track of stock today.",
+        "tainted_turn_idxs": [
+          5
+        ]
+      },
+      {
+        "interview": 5,
+        "turn_idx": 10,
+        "question": "Wouldn't it be amazing if a tool could do all the counting for you",
+        "why_leading": "It asks the interviewee to react to the founder's idea and signals the 'right' answer.",
+        "neutral_rewrite": "How do you work out what to order today, and who does that work?",
+        "tainted_turn_idxs": [
+          11
+        ]
+      }
+    ],
+    "synthesis": {
+      "themes": [
+        {
+          "title": "Adoption is the barrier, not awareness",
+          "summary": "Four owners tried a spreadsheet, a scanner, an app or a stock module and abandoned it, mostly because staff would not type things in. A new tool has to remove data entry, not add it.",
+          "keys": [
+            "i4s3",
+            "i5s4",
+            "i3s8",
+            "i6s3"
+          ]
+        },
+        {
+          "title": "Enthusiasm without commitment",
+          "summary": "Most positive reactions are compliments or promises (\"I would definitely pay\", \"I will definitely download it\") that follow a leading question and are not backed by anything the owner has actually done.",
+          "keys": [
+            "i1s5",
+            "i4s8",
+            "i2s6"
+          ]
+        },
+        {
+          "title": "Real pain shows up with scale and money at stake",
+          "summary": "The sharpest pains are expensive, specific incidents: a month of missing beef, a chicken order at double the price, a Friday without rice, cancelled delivery orders. They cluster in the larger or multi-site operations.",
+          "keys": [
+            "i3s3",
+            "i6s14",
+            "i1s3",
+            "i4s11"
+          ]
+        },
+        {
+          "title": "Paying today predicts paying tomorrow",
+          "summary": "Only two owners point to money they already spend on something close to this job: a monthly accountant for reconciliation and a monthly POS subscription.",
+          "keys": [
+            "i3s2",
+            "i6s2"
+          ]
+        }
+      ],
+      "top_for": [
+        {
+          "key": "i3s3",
+          "why": "A specific, quantified loss (about 120,000 naira in one month) found only at month end: exactly the kind of pain an automated stock count addresses."
+        },
+        {
+          "key": "i3s2",
+          "why": "She already pays 15,000 naira a month for stock reconciliation, which is concrete behavior showing both the pain and a budget for it."
+        },
+        {
+          "key": "i6s2",
+          "why": "A real, current monthly software subscription: this owner does pay for business software, which supports the pricing model."
+        }
+      ],
+      "top_against": [
+        {
+          "key": "i5s4",
+          "why": "He bought a stock app, used it for a week and deleted it because typing everything took an hour instead of fifteen minutes: a direct, recent failure of this product category."
+        },
+        {
+          "key": "i5s2",
+          "why": "A fifteen-year operator who has not run out of anything important in two years: for him the problem the hypothesis assumes does not exist."
+        },
+        {
+          "key": "i6s3",
+          "why": "Even an owner who pays monthly for software never used the stock module because nobody has time to enter deliveries. Willingness to pay does not guarantee use."
+        }
+      ],
+      "open_questions": [
+        "Which owners actually lose enough money to stock mismatches to pay 5,000 to 10,000 naira a month, and how many of the six are like Funmilayo or Ngozi?",
+        "Can stock be tracked with no manual data entry (for example from supplier receipts or WhatsApp photos), since typing killed every earlier attempt?",
+        "Is the buyer the owner or the kitchen manager, and who would actually use the app every day?",
+        "Would owners with a working routine, like Tunde, ever switch, or is the market limited to multi-site and delivery-heavy restaurants?",
+        "What did the abandoned spreadsheets, apps and scanners cost, and what exactly made each one fail?"
+      ]
+    }
+  }
+}

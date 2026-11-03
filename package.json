@@ -6,21 +6,50 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:unit": "vitest run --exclude tests/rls.test.ts",
+    "db:local": "node scripts/local-stack/stack.mjs up",
+    "db:local:reset": "node scripts/local-stack/stack.mjs reset",
+    "test:rls": "vitest run tests/rls.test.ts",
+    "test:e2e": "node scripts/local-stack/stack.mjs up && next build && playwright test",
+    "seed:build": "tsx scripts/build-seed.ts",
+    "cache:demo": "tsx scripts/cache-demo.mts",
+    "report:runlogs": "tsx scripts/report-runlogs.mts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.66.0",
+    "mammoth": "^1.13.0",
     "next": "16.4.3",
+    "pdfkit": "^0.20.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^12.0.0",
+    "@playwright/test": "^1.64.1",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/pdfkit": "^0.17.7",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^18.0.9",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
+    "pg": "^8.23.1",
+    "puppeteer": "^25.16.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   }
 }

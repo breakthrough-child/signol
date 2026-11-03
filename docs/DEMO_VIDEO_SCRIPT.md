@@ -1,0 +1,17 @@
+# Demo video script (target: 2:45, hard limit 3:00)
+
+Record at 1280×720, browser zoom 110%, one take per scene. Use the deployed app, **Try the demo**, and run the **live** analysis (keep the cached one as a safety net, not in the video). Voice-over in plain, calm English. Times are cumulative.
+
+| # | Time | Screen | Voice-over | Notes |
+|---|---|---|---|---|
+| 1 | 0:00–0:15 | Landing page, slow scroll to the 3-step explainer | "After customer interviews, founders spend hours rereading notes, and still count 'great idea!' as validation. signol does the synthesis in minutes, but makes you face the evidence against you before you decide." | Show the hero stat card. |
+| 2 | 0:15–0:30 | Click **Try the demo**. Project page: hypothesis, prediction 5 of 6 at 80%, six interviews | "No sign-up. This demo has six interviews with Lagos restaurant owners. Checkpoint one: before any analysis, I commit to a prediction: five of six will back my hypothesis, with 80% confidence." | Hover the 'locks when analysis starts' text. |
+| 3 | 0:30–0:50 | Tick the lock checkbox, **Lock prediction and start analysis**; the progress list ticks through steps | "When analysis starts, the hypothesis and prediction lock. The agent splits each transcript, classifies every statement, flags my leading questions, then verifies every quote in code, not with the AI, and scores the evidence in code." | Let the step notes show. If a rate-limit note appears, say "if a provider is rate-limited, it retries and falls back to Gemini". |
+| 4 | 0:50–1:20 | Evidence board: headline stat, verified badge, For/Against columns | "71% of my positive feedback was compliments or promises, not evidence. Each card shows the exact quote, the interviewee, the type, and how strong it is as evidence. Past behavior counts; 'I would definitely pay' barely does." | Pause on the headline. Click a type filter. |
+| 5 | 1:20–1:40 | Click **View in transcript** on a strong counter-evidence card | "Every claim links back to the transcript, with the quote highlighted. Here an owner tried a stock app and deleted it after a week." | Show the yellow highlight. |
+| 6 | 1:40–1:55 | Scroll to the leading-questions panel | "signol also shows my own mistakes: these questions led the witness. It gives neutral rewrites and down-weights the answers they provoked." | Show one 'Neutral rewrite'. |
+| 7 | 1:55–2:25 | Decision page: select **Validated**; button disabled; open the 3 cards and type responses | "Checkpoint two. If I want to say 'validated', I must first open the three strongest counter-evidence cards and answer each one in my own words. The server enforces it. signol never decides for me." | Type real sentences; show the filler 'ok' being rejected if time allows. |
+| 8 | 2:25–2:40 | Submit; calibration view | "Afterwards, a neutral calibration: I predicted five of six; the evidence shows three. That's the lesson, without a verdict." | Linger on the two bars. |
+| 9 | 2:40–2:55 | Outputs: decision log, PDF/Markdown, share link, next-interview script; then /stats | "I get an exportable decision log, a read-only share link, a next-interview script with my questions rewritten, and measured time saved. All on free models." | End on the wordmark and URL. |
+
+**Checklist before recording:** use a fresh demo project; Groq and Gemini keys set; browser window free of personal tabs; confirm the live run finishes in under a minute (otherwise record the cached path and say so).

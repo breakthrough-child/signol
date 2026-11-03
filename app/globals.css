@@ -1,26 +1,100 @@
 @import "tailwindcss";
 
+/* signol visual identity: warm paper, ink, one signal-orange accent.
+   Semantic colors (support / against / tainted) are always paired with text or icons, never color alone. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #f6f1e7;
+  --paper-2: #efe8da;
+  --card: #fffdf8;
+  --ink: #15171c;
+  --ink-2: #4a4f5c;
+  --line: #ddd4c2;
+  --signal: #c2410c;
+  --signal-ink: #ffffff;
+  --signal-soft: #fbe6d9;
+  --support: #17694d;
+  --support-soft: #dcf0e6;
+  --against: #a8261c;
+  --against-soft: #f8dedb;
+  --warn: #8a5a0b;
+  --warn-soft: #f6e8c8;
+  --focus: #1d4ed8;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --paper: #14161b;
+    --paper-2: #1b1e25;
+    --card: #1e2128;
+    --ink: #f1ede4;
+    --ink-2: #b4b0a6;
+    --line: #353a45;
+    --signal: #ff8a4c;
+    --signal-ink: #1a0f08;
+    --signal-soft: #3a2316;
+    --support: #6fd1a6;
+    --support-soft: #173a2d;
+    --against: #ff9b92;
+    --against-soft: #43201d;
+    --warn: #f0c36a;
+    --warn-soft: #3b2f12;
+    --focus: #8fb2ff;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink2: var(--ink-2);
+  --color-line: var(--line);
+  --color-signal: var(--signal);
+  --color-signalink: var(--signal-ink);
+  --color-signalsoft: var(--signal-soft);
+  --color-support: var(--support);
+  --color-supportsoft: var(--support-soft);
+  --color-against: var(--against);
+  --color-againstsoft: var(--against-soft);
+  --color-warn: var(--warn);
+  --color-warnsoft: var(--warn-soft);
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
+
+html {
+  background: var(--paper);
+  color-scheme: light dark;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+mark.quote-hl {
+  background: var(--signal-soft);
+  color: var(--ink);
+  box-shadow: 0 0 0 2px var(--signal-soft);
+  border-bottom: 2px solid var(--signal);
+  border-radius: 2px;
+}
+input[type="range"] {
+  accent-color: var(--signal);
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+.pulse-dot { animation: pulse-dot 1.2s ease-in-out infinite; }

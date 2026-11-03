@@ -1,0 +1,59 @@
+{
+  "themes": [
+    {
+      "title": "Adoption is the barrier, not awareness",
+      "summary": "Four owners tried a spreadsheet, a scanner, an app or a stock module and abandoned it, mostly because staff would not type things in. A new tool has to remove data entry, not add it.",
+      "match": ["I used it for three weeks and then I stopped", "he sold it to me for four thousand naira", "the store keeper never used it", "the stock part has been empty since the first week"]
+    },
+    {
+      "title": "Enthusiasm without commitment",
+      "summary": "Most positive reactions are compliments or promises (\"I would definitely pay\", \"I will definitely download it\") that follow a leading question and are not backed by anything the owner has actually done.",
+      "match": ["I would definitely pay for something like that", "I will definitely download it when it is ready", "I would probably try it if it is cheap"]
+    },
+    {
+      "title": "Real pain shows up with scale and money at stake",
+      "summary": "The sharpest pains are expensive, specific incidents: a month of missing beef, a chicken order at double the price, a Friday without rice, cancelled delivery orders. They cluster in the larger or multi-site operations.",
+      "match": ["the store had less than half", "the chicken cost us almost double", "we ran out of rice on a Friday", "we get three or four cancelled orders"]
+    },
+    {
+      "title": "Paying today predicts paying tomorrow",
+      "summary": "Only two owners point to money they already spend on something close to this job: a monthly accountant for reconciliation and a monthly POS subscription.",
+      "match": ["my cousin, who is an accountant", "eight thousand naira every month for a POS"]
+    }
+  ],
+  "top_for": [
+    {
+      "match": "the store had less than half",
+      "why": "A specific, quantified loss (about 120,000 naira in one month) found only at month end: exactly the kind of pain an automated stock count addresses."
+    },
+    {
+      "match": "my cousin, who is an accountant",
+      "why": "She already pays 15,000 naira a month for stock reconciliation, which is concrete behavior showing both the pain and a budget for it."
+    },
+    {
+      "match": "eight thousand naira every month for a POS",
+      "why": "A real, current monthly software subscription: this owner does pay for business software, which supports the pricing model."
+    }
+  ],
+  "top_against": [
+    {
+      "match": "he sold it to me for four thousand naira",
+      "why": "He bought a stock app, used it for a week and deleted it because typing everything took an hour instead of fifteen minutes: a direct, recent failure of this product category."
+    },
+    {
+      "match": "have not run out of anything important",
+      "why": "A fifteen-year operator who has not run out of anything important in two years: for him the problem the hypothesis assumes does not exist."
+    },
+    {
+      "match": "the stock part has been empty since the first week",
+      "why": "Even an owner who pays monthly for software never used the stock module because nobody has time to enter deliveries. Willingness to pay does not guarantee use."
+    }
+  ],
+  "open_questions": [
+    "Which owners actually lose enough money to stock mismatches to pay 5,000 to 10,000 naira a month, and how many of the six are like Funmilayo or Ngozi?",
+    "Can stock be tracked with no manual data entry (for example from supplier receipts or WhatsApp photos), since typing killed every earlier attempt?",
+    "Is the buyer the owner or the kitchen manager, and who would actually use the app every day?",
+    "Would owners with a working routine, like Tunde, ever switch, or is the market limited to multi-site and delivery-heavy restaurants?",
+    "What did the abandoned spreadsheets, apps and scanners cost, and what exactly made each one fail?"
+  ]
+}

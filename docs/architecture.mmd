@@ -1,0 +1,46 @@
+flowchart TB
+  subgraph Browser["Browser (Next.js App Router, React)"]
+    UI["Pages: pre-commit · interviews · analysis · evidence board · decision · outputs · /stats"]
+    SBC["supabase-js (anonymous session)"]
+  end
+
+  subgraph Vercel["Vercel: Next.js route handlers (maxDuration 60s)"]
+    API["/api/projects · interviews · analyze · steps · decision · script · export · share · timing · demo"]
+    subgraph Pipeline["Pipeline: one stored, resumable step per call"]
+      T["transcribe (Whisper)"]
+      N["normalize (code): speaker turns, chunks"]
+      C["classify (LLM): type · stance · quote"]
+      L["leading questions (LLM)"]
+      V["verify quotes (CODE, no LLM)"]
+      S["score (CODE): weights, taint, stats"]
+      Y["synthesize (LLM, verified evidence only)"]
+      T --> N --> C --> L --> V --> S --> Y
+    end
+    LLM["lib/llm: provider abstraction<br/>retry + backoff · JSON-schema (zod) validation · re-ask once · logging"]
+  end
+
+  subgraph Providers["Free-tier model providers"]
+    G["Groq: Llama (chat) + Whisper"]
+    GM["Google Gemini Flash (fallback)"]
+  end
+
+  subgraph Supabase["Supabase"]
+    AUTH["Auth: anonymous sign-ins"]
+    DB[("Postgres + Row Level Security<br/>projects · interviews · turns · statements<br/>leading_questions · syntheses · decisions<br/>run_logs · timing_events · pipeline_steps")]
+    ST[("Storage: private bucket + signed URLs")]
+    RPC["RPC: shared_decision_log(token), stats_rows()"]
+  end
+
+  UI --> SBC
+  SBC -->|"upload audio / files (direct)"| ST
+  SBC -->|"reads under RLS"| DB
+  SBC --> AUTH
+  UI -->|"fetch (cookie session)"| API
+  API --> Pipeline
+  Pipeline --> LLM
+  LLM -->|"primary"| G
+  LLM -.->|"on 429 / 5xx / invalid JSON"| GM
+  T -->|"download audio"| ST
+  Pipeline -->|"writes as the user (RLS enforced)"| DB
+  API --> AUTH
+  SHARE["/s/[token] read-only page"] --> RPC --> DB
